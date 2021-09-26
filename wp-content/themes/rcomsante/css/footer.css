@@ -1,0 +1,14 @@
+footer {
+    background-color: #FFFFFF;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+footer .bg-white {
+    background-color: #FFFFFF;
+}
+
+.social-footer {
+    display: flex;
+}

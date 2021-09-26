@@ -6,3 +6,6 @@ Version: 0.1
 Requires at least: 5.8
 Requires PHP: 7.2
 */
+
+@import "css/header.css";
+@import "css/footer.css";

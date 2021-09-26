@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.social-header {
+    display: flex;
+}
+
+header .navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    position: relative !important;
+    top: 34px !important;
+}
+
+header .dropdown-toggle::after {
+    display: none !important;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+header .navbar-light .navbar-nav .nav-link:focus,
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, .7);
+    text-decoration: overline #E34234 2px !important;
+}
+
+header .dropdown-item:focus,
+header .dropdown-item:hover {
+    color: #1e2125;
+    background-color: #ffffff !important;
+    text-decoration: overline #E34234 2px !important;
+}
