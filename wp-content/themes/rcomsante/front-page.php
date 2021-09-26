@@ -7,7 +7,7 @@
 
                 <!-- Carousel -->
                 <?php
-                $query = new WP_Query([
+                $carousel_frontpage = new WP_Query([
                     'post_type' => 'carousel-frontpage',
                     'posts_per_page' => 3,
                     'order' => 'ASC',
@@ -24,7 +24,7 @@
                         <?php $count = 0; ?>
                         <?php $button_article = 0; ?>
                         <?php
-                        while ($query->have_posts()) : $query->the_post();
+                        while ($carousel_frontpage->have_posts()) : $carousel_frontpage->the_post();
                         ?>
 
                             <div class="carousel-item <?php
@@ -75,7 +75,72 @@
                     </button>
                 </div>
 
+                <!-- 3 questions à ... -->
+                <div class="mt-5 p-4" style="background-color: #FFFFFF;">
+                    <div class="row">
+                        <h2>3 questions à ...</h2>
+                        <p>Depuis 1991, RComSanté reçois mensuellement un expert éminent pour débattre autour d'un thème.</p>
+                        <p>Retrouvez-les en vidéo :</p>
+                        <div class="col-7">
+                            <?php
+                            $single_video_intervenant = new WP_Query([
+                                'post_type' => 'last-speakers',
+                                'posts_per_page' => 1,
+                                'order' => 'DESC'
+                            ]);
+                            ?>
+                            <?php
+                            while ($single_video_intervenant->have_posts()) : $single_video_intervenant->the_post();
+                            ?>
+                                <div class="embed-container" style="width: 100%;">
+                                    <?php the_field('video_intervenant'); ?>
+                                </div>
+                                <div class="p-2 m-0" style="box-shadow: 0px 3px 6px #00000029; opacity: 1;">
+                                    <h3><?php the_field('identite_intervenant'); ?></h3>
+                                    <p><?php the_field('biographie_intervenant'); ?></p>
+                                </div>
+                            <?php
+                            endwhile;
+                            wp_reset_postdata();
+                            ?>
+                        </div>
+                        <div class="col-5 test_my_css scroller" style="height: 415px; overflow: scroll; overflow-x: hidden;">
+                            <?php
+                            $listing_intervenants = new WP_Query([
+                                'post_type' => 'last-speakers',
+                                'posts_per_page' => 9,
+                                'order' => 'DESC',
+                            ]);
+                            ?>
+                            <?php
+                            while ($listing_intervenants->have_posts()) : $listing_intervenants->the_post();
+                            ?>
+                                <div class="permalink-speakers">
+                                    <a href="<?php the_permalink(); ?>">
+                                        <div class="listing-intervenants px-3" style="background-color: #33BD9426; border: #ffffff solid;">
 
+                                            <div class="miniature">
+                                                <?php
+                                                $image = get_field('miniature');
+                                                if (!empty($image)) : ?>
+                                                    <img style="width: 72px; height: 72px; border-radius: 70px; opacity: 1;" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                                                <?php endif; ?>
+                                            </div>
+                                            <div class="informations py-3 ms-3">
+                                                <h5><?php the_field('identite_intervenant'); ?></h5>
+                                                <p><?php the_field('biographie_intervenant'); ?></p>
+                                                <p><?php the_field('date_intervention_intervenant'); ?></p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            <?php
+                            endwhile;
+                            wp_reset_postdata();
+                            ?>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- Side Bar -->
             <div class="col-3">
