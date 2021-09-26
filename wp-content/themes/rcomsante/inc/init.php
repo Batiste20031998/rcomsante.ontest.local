@@ -6,9 +6,10 @@ function montheme_types()
     register_post_type('carousel-frontpage', [
         'label' => 'Carousel page d\'accueil',
         'public' => true,
-        'supports' => ['title', 'editor', 'thumbnail', 'custom-field'],
+        'supports' => ['title', 'editor', 'thumbnail', 'custom-field', 'page-attributes'],
         'show_in_rest' => true,
         'has_archive' => true,
+        'hierarchical' => true,
     ]);
 
     register_post_type('last-speakers', [

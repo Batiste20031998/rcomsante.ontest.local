@@ -5,3 +5,4 @@ require_once('inc/document_title_separator.php');
 require_once('inc/init.php');
 require_once('inc/nav_menu_link_attributes.php');
 require_once('inc/customize_register.php');
+require_once('inc/acf_carousel_frontpage.php');

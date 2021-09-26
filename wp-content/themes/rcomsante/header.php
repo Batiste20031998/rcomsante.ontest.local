@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <div class="container">
+
+    <div class="container pb-3">
         <header>
             <nav class="navbar navbar-expand-md navbar-light bg-white" role="navigation">
                 <!-- Brand and toggle get grouped for better mobile display -->
