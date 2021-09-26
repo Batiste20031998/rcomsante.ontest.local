@@ -20,6 +20,8 @@ function montheme_supports()
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('menus');
+    register_nav_menu('header', 'En tête du menu');
+    register_nav_menu('footer', 'Pied de page');
 }
 add_action('after_setup_theme', 'montheme_supports');
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -29,3 +31,21 @@ function montheme_title_separator()
 }
 add_filter('document_title_separator', 'montheme_title_separator');
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+function register_navwalker()
+{
+    require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+}
+add_action('after_setup_theme', 'register_navwalker');
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+function prefix_bs5_dropdown_data_attribute($atts, $item, $args)
+{
+    if (is_a($args->walker, 'WP_Bootstrap_Navwalker')) {
+        if (array_key_exists('data-toggle', $atts)) {
+            unset($atts['data-toggle']);
+            $atts['data-bs-toggle'] = 'dropdown';
+        }
+    }
+    return $atts;
+}
+add_filter('nav_menu_link_attributes', 'prefix_bs5_dropdown_data_attribute', 20, 3);
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
