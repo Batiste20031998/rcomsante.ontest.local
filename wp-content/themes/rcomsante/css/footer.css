@@ -1,8 +1,8 @@
 footer {
     background-color: #FFFFFF;
-    height: 80px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 footer .bg-white {
@@ -11,4 +11,5 @@ footer .bg-white {
 
 .social-footer {
     display: flex;
+    padding-right: 15rem;
 }
