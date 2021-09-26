@@ -23,3 +23,9 @@ function montheme_supports()
 }
 add_action('after_setup_theme', 'montheme_supports');
 /* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+function montheme_title_separator()
+{
+    return '|';
+}
+add_filter('document_title_separator', 'montheme_title_separator');
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
