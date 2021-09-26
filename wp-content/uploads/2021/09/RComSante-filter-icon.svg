@@ -1,0 +1,10 @@
+<svg id="RComSante-filter-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.31" height="20.328" viewBox="0 0 20.31 20.328">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_72" data-name="Rectangle 72" width="20.31" height="20.328" fill="#33bd94"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_388" data-name="Groupe 388" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Tracé_500" data-name="Tracé 500" d="M1822.177,1979.925a.861.861,0,0,0-.85-.562h-18.434a.861.861,0,0,0-.85.562.831.831,0,0,0,.2,1.008l7.1,7.1v7a.887.887,0,0,0,.274.648l3.687,3.686a.855.855,0,0,0,.648.274,1,1,0,0,0,.36-.072.861.861,0,0,0,.562-.849v-10.687l7.1-7.1a.832.832,0,0,0,.2-1.008Zm0,0" transform="translate(-1801.956 -1979.363)" fill="#33bd94"/>
+  </g>
+</svg>

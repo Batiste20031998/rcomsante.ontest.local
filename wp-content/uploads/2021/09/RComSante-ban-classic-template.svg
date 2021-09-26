@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="70" viewBox="0 0 960 70">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_50" data-name="Rectangle 50" width="516" height="70" transform="translate(319 166)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_55" data-name="Rectangle 55" width="470" height="70" transform="translate(293 166)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="RComSante-ban-classic-template" transform="translate(-315 -166)">
+    <g id="Groupe_de_masques_1" data-name="Groupe de masques 1" transform="translate(-4)" clip-path="url(#clip-path)">
+      <circle id="Ellipse_29" data-name="Ellipse 29" cx="30" cy="30" r="30" transform="translate(336 150)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_33" data-name="Ellipse 33" cx="32" cy="32.5" rx="32" ry="32.5" transform="translate(518 162)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_43" data-name="Ellipse 43" cx="31.5" cy="32.5" rx="31.5" ry="32.5" transform="translate(615 115)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_45" data-name="Ellipse 45" cx="32" cy="32.5" rx="32" ry="32.5" transform="translate(771 154)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_37" data-name="Ellipse 37" cx="10" cy="10" r="10" transform="translate(456 216)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_36" data-name="Ellipse 36" cx="15.5" cy="16" rx="15.5" ry="16" transform="translate(720 154)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_40" data-name="Ellipse 40" cx="12" cy="12" r="12" transform="translate(629 192)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_31" data-name="Ellipse 31" cx="8.5" cy="9" rx="8.5" ry="9" transform="translate(441 162)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_50" data-name="Ellipse 50" cx="11.5" cy="11.5" r="11.5" transform="translate(336 199)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_38" data-name="Ellipse 38" cx="6" cy="5.5" rx="6" ry="5.5" transform="translate(471 201)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_34" data-name="Ellipse 34" cx="16" cy="15.5" rx="16" ry="15.5" transform="translate(562 201)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_46" data-name="Ellipse 46" cx="20.5" cy="21" rx="20.5" ry="21" transform="translate(752 183)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_44" data-name="Ellipse 44" cx="15.5" cy="15.5" r="15.5" transform="translate(491 150)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_48" data-name="Ellipse 48" cx="15.5" cy="15.5" r="15.5" transform="translate(300 157)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_39" data-name="Ellipse 39" cx="5" cy="5" r="5" transform="translate(710 199)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_42" data-name="Ellipse 42" cx="6" cy="5.5" rx="6" ry="5.5" transform="translate(652 175)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_52" data-name="Ellipse 52" cx="9" cy="9" r="9" transform="translate(618 206)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_30" data-name="Ellipse 30" cx="38" cy="38.5" rx="38" ry="38.5" transform="translate(382 154)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="20" cy="19.5" rx="20" ry="19.5" transform="translate(569 153)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_41" data-name="Ellipse 41" cx="20" cy="20" r="20" transform="translate(641 196)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_47" data-name="Ellipse 47" cx="7" cy="7" r="7" transform="translate(736 218)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_51" data-name="Ellipse 51" cx="15" cy="15" r="15" transform="translate(503 197)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_53" data-name="Ellipse 53" cx="15" cy="14" rx="15" ry="14" transform="translate(469 143)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_49" data-name="Ellipse 49" cx="7" cy="7" r="7" transform="translate(317 183)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_35" data-name="Ellipse 35" cx="23" cy="23" r="23" transform="translate(686 157)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+    </g>
+    <g id="Groupe_de_masques_2" data-name="Groupe de masques 2" transform="translate(512)" clip-path="url(#clip-path-2)">
+      <circle id="Ellipse_59" data-name="Ellipse 59" cx="30" cy="30" r="30" transform="translate(336 150)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_60" data-name="Ellipse 60" cx="32" cy="32.5" rx="32" ry="32.5" transform="translate(518 162)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_61" data-name="Ellipse 61" cx="31.5" cy="32.5" rx="31.5" ry="32.5" transform="translate(615 115)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_62" data-name="Ellipse 62" cx="32" cy="32.5" rx="32" ry="32.5" transform="translate(771 154)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_63" data-name="Ellipse 63" cx="10" cy="10" r="10" transform="translate(456 216)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_64" data-name="Ellipse 64" cx="15.5" cy="16" rx="15.5" ry="16" transform="translate(720 154)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_65" data-name="Ellipse 65" cx="12" cy="12" r="12" transform="translate(629 192)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_66" data-name="Ellipse 66" cx="8.5" cy="9" rx="8.5" ry="9" transform="translate(441 162)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_67" data-name="Ellipse 67" cx="11.5" cy="11.5" r="11.5" transform="translate(336 199)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_68" data-name="Ellipse 68" cx="6" cy="5.5" rx="6" ry="5.5" transform="translate(471 201)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_69" data-name="Ellipse 69" cx="16" cy="15.5" rx="16" ry="15.5" transform="translate(562 201)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_70" data-name="Ellipse 70" cx="20.5" cy="21" rx="20.5" ry="21" transform="translate(752 183)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_71" data-name="Ellipse 71" cx="15.5" cy="15.5" r="15.5" transform="translate(491 150)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_72" data-name="Ellipse 72" cx="15.5" cy="15.5" r="15.5" transform="translate(300 157)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_73" data-name="Ellipse 73" cx="5" cy="5" r="5" transform="translate(710 199)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_74" data-name="Ellipse 74" cx="6" cy="5.5" rx="6" ry="5.5" transform="translate(652 175)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_75" data-name="Ellipse 75" cx="9" cy="9" r="9" transform="translate(618 206)" fill="#e34234" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_76" data-name="Ellipse 76" cx="38" cy="38.5" rx="38" ry="38.5" transform="translate(382 154)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_77" data-name="Ellipse 77" cx="20" cy="19.5" rx="20" ry="19.5" transform="translate(569 153)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_78" data-name="Ellipse 78" cx="20" cy="20" r="20" transform="translate(641 196)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_79" data-name="Ellipse 79" cx="7" cy="7" r="7" transform="translate(736 218)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_80" data-name="Ellipse 80" cx="15" cy="15" r="15" transform="translate(503 197)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <ellipse id="Ellipse_81" data-name="Ellipse 81" cx="15" cy="14" rx="15" ry="14" transform="translate(469 143)" fill="#33bd94" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_82" data-name="Ellipse 82" cx="7" cy="7" r="7" transform="translate(317 183)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <circle id="Ellipse_83" data-name="Ellipse 83" cx="23" cy="23" r="23" transform="translate(686 157)" fill="#09c" opacity="0.9" style="mix-blend-mode: multiply;isolation: isolate"/>
+    </g>
+  </g>
+</svg>
