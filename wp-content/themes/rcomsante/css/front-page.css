@@ -138,3 +138,7 @@
     scrollbar-color: #33BD94 #33BD9426;
     scrollbar-width: thin;
 }
+
+div.last-speakers:hover {
+    background-color: #0099CC2B !important;
+}

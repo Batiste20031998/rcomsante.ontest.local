@@ -76,9 +76,10 @@
                 </div>
 
                 <!-- 3 questions à ... -->
-                <div class="mt-5 p-4" style="background-color: #FFFFFF;">
+                <div class="mt-5 p-4" style="background-color: #FFFFFF; border-top: 6px solid #33BD94;">
+                    <h2>3 questions à ...</h2>
+                    <hr style="width: 508px">
                     <div class="row">
-                        <h2>3 questions à ...</h2>
                         <p>Depuis 1991, RComSanté reçois mensuellement un expert éminent pour débattre autour d'un thème.</p>
                         <p>Retrouvez-les en vidéo :</p>
                         <div class="col-7">
@@ -138,6 +139,50 @@
                             endwhile;
                             wp_reset_postdata();
                             ?>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nos précédents intervenants -->
+                <div class="mt-5 p-4" style="background-color: #FFFFFF; border-top: 6px solid #0099CC;">
+                    <h2>Nos précédents intervenants</h2>
+                    <hr style="width: 508px">
+                    <div class="row">
+                        <div class="col">
+                            <?php
+                            $last_speakers = new WP_Query([
+                                'post_type' => 'last-speakers',
+                                'posts_per_page' => 9,
+                                'order' => 'DESC',
+                            ]);
+                            ?>
+                            <div style="display: flex; flex-direction: row; flex-wrap:wrap; justify-content:space-around;">
+                                <?php
+                                while ($last_speakers->have_posts()) : $last_speakers->the_post();
+                                ?>
+                                    <div class="last-speakers">
+                                        <a href="<?php the_permalink(); ?>" style="text-decoration: none; color:black">
+                                            <div class="mx-3 my-3" style="width:141px; height:241px; text-align:center;">
+                                                <?php
+                                                $image = get_field('miniature');
+                                                if (!empty($image)) : ?>
+                                                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" style="width: 141px; height: 141px; border-radius: 70px; opacity: 1;" />
+                                                <?php endif; ?>
+                                                <h5 class="mt-3"><?php the_field('identite_intervenant'); ?></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <?php
+                                endwhile;
+                                wp_reset_postdata();
+                                ?>
+                                <div class="my-3" style="width:141px; height:141px; background: #0099CCCC 0% 0% no-repeat padding-box; border-radius: 70px; opacity: 1;">
+                                    <a href="https://rcomsante.ontest.net/liste-intervenants/" style="text-decoration: none;">
+                                        <p class="m-0" style="text-align: center; font: normal normal bold 100px/150px Mukta Vaani; letter-spacing: 0px; color: #FFFFFF; opacity: 1;">+</p>
+                                    </a>
+                                    <h5 style="text-align: center;">Voir plus d'experts</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
